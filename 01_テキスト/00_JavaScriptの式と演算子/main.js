@@ -1,10 +1,11 @@
 // TRY: 練習問題１
-
+57052 + 57054
+"114" + "106"
 // TRY: 練習問題２
 
 // TRY: 練習問題３
-let happiness = 0 // 0 から 100 までの数値を代入してください
-let sleepiness = 0 // 0 から 100 までの数値を代入してください
+let happiness = 92 // 0 から 100 までの数値を代入してください
+let sleepiness = 97 // 0 から 100 までの数値を代入してください
 
 const isHappy = happiness > 90
 const isSleepy = sleepiness > 90
