@@ -27,7 +27,7 @@
   //
   // フォーマッター (ESLint & Prettier) 設定
   //
-  "files.autoSave": "off", // prettier によるフォーマットを手動で保存時に行うために、autoSave を off に設定する
+  "files.autoSave": "afterDelay", // prettier によるフォーマットを手動で保存時に行うために、autoSave を off に設定する
   "editor.defaultFormatter": "esbenp.prettier-vscode", // フォーマッタを prettier に設定する
   "editor.formatOnSave": true, // ファイルを保存したときに、コードを整形する
   "editor.codeActionsOnSave": {
