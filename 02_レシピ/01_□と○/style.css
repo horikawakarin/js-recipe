@@ -1,0 +1,17 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.rounded {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50px;
+}
+.triangle {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
