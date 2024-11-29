@@ -1,6 +1,7 @@
 const choice1 = document.getElementById("choice-1")
 const choice2 = document.getElementById("choice-2")
 const choice3 = document.getElementById("choice-3")
+const choice4 = document.getElementById("choice-4")
 const feedback = document.getElementById("feedback")
 
 choice1.onclick = function () {
@@ -11,4 +12,7 @@ choice2.onclick = function () {
 }
 choice3.onclick = function () {
   feedback.textContent = "残念！パーでした"
+}
+choice4.onclick = function () {
+  feedback.textContent = "残念！チョッキでした"
 }
